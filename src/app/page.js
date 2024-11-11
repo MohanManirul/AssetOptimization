@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
+        <p>Text {process.env.NEXT_PUBLIC_API_KEY
+        }</p>
         <Image
           className={styles.logo}
           src="/next.svg"
