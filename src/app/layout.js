@@ -1,5 +1,11 @@
 import {Hind_Siliguri, Roboto} from "next/font/google";
+import LocalFont from "next/font/local"; 
 import "./globals.css";
+
+const MyLocalFont = LocalFont({
+  src:'./fonts/SolaimanLipi.ttf',
+  variable: "--local-font",
+})
 
 const Siliguri = Hind_Siliguri({
   subsets: ["latin"],
@@ -15,7 +21,8 @@ const roboto_font = Roboto({
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${Siliguri.variable} ${roboto_font.variable} `}>
+    // for single font <html lang="en" className={Siliguri.variable}> 
+    <html lang="en" className={`${Siliguri.variable} ${roboto_font.variable} ${MyLocalFont.variable} `}> 
       <body>
         {children}
       </body>
