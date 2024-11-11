@@ -5,5 +5,5 @@ const nextConfig = {
         domains: ['cdn.britannica.com','m.media-amazon.com']
     }
 };
-
+ 
 export default nextConfig;

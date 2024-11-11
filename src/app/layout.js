@@ -30,12 +30,22 @@ const roboto_font = Roboto({
   weight: ["300", "400", "500"],
   variable: "--font-roboto",
 })
-
+ 
 export default function RootLayout({ children }) {
   return (
     // for single font <html lang="en" className={Siliguri.variable}> 
     <html lang="en" className={`${Siliguri.variable} ${roboto_font.variable} ${MyLocalFont.variable} `}> 
       <body>
+        <Nav />
+        <Nav />
+        <Nav />
+        <Nav />
+        <Nav />
+        <Nav />
+        <Nav />
+        <Nav />
+        <Nav />
+        <Nav />
         <Nav />
         {children}
         <Script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" />

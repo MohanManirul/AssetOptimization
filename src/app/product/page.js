@@ -8,7 +8,7 @@ const page = () => {
 
             
             <Image 
-                alt='Phone'
+                alt='Phonef'
                 width={200}
                 height={300}
                 src="https://cdn.britannica.com/09/241709-050-149181B1/apple-iphone-11-2019.jpg?w=300"
@@ -19,7 +19,18 @@ const page = () => {
 
 
             <Image 
-                alt='Phone'
+                alt='Phofne'
+                width={200}
+                height={300}
+                src="https://m.media-amazon.com/images/I/71BcNVNnJDL._AC_SL1500_.jpg"
+               
+                layout='fixed'
+                
+                // layout='fixed'
+            />
+
+            <Image 
+                alt='Phoffne'
                 width={200}
                 height={300}
                 src="https://m.media-amazon.com/images/I/71BcNVNnJDL._AC_SL1500_.jpg"
@@ -30,7 +41,7 @@ const page = () => {
             />
 
             <Image 
-                alt='Phone'
+                alt='Phofffne'
                 width={200}
                 height={300}
                 src="https://m.media-amazon.com/images/I/71BcNVNnJDL._AC_SL1500_.jpg"
@@ -41,7 +52,7 @@ const page = () => {
             />
 
             <Image 
-                alt='Phone'
+                alt='Phonefff'
                 width={200}
                 height={300}
                 src="https://m.media-amazon.com/images/I/71BcNVNnJDL._AC_SL1500_.jpg"
@@ -52,7 +63,7 @@ const page = () => {
             />
 
             <Image 
-                alt='Phone'
+                alt='Phonsdsde'
                 width={200}
                 height={300}
                 src="https://m.media-amazon.com/images/I/71BcNVNnJDL._AC_SL1500_.jpg"
@@ -63,18 +74,7 @@ const page = () => {
             />
 
             <Image 
-                alt='Phone'
-                width={200}
-                height={300}
-                src="https://m.media-amazon.com/images/I/71BcNVNnJDL._AC_SL1500_.jpg"
-                layout='responsive'
-                // layout='fixed'
-                
-                // layout='fixed'
-            />
-
-            <Image 
-                alt='Phone'
+                alt='Phonfeee'
                 width={200}
                 height={300}
                 src="https://m.media-amazon.com/images/I/71BcNVNnJDL._AC_SL1500_.jpg"
